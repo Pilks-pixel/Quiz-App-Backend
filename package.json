@@ -4,7 +4,7 @@
   "description": "",
   "main": "./api/index.js",
   "scripts": {
-    "start": "nodemon ./api/index.js",
+    "start": "node ./api/index.js",
     "test": "jest --setupFiles ./tests/integration/mongo-test-environment.js --watchAll --detectOpenHandles --runInBand --verbose"
   },
   "author": "",
